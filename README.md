@@ -87,17 +87,6 @@ For rate-based measures, numerator and denominator values were checked before pe
 
 Results based on small denominators should be interpreted carefully because small cohorts can cause large changes in percentage-based performance measures.
 
-## Tools Used
-
-- Python
-- pandas
-- NumPy
-- Matplotlib
-- Plotly
-- Excel
-- VS Code
-- Git / GitHub
-
 ## Project Structure
 
 ```text
@@ -115,63 +104,7 @@ Kansas Workforce Program Performance Analysis/
 │
 ├── reports/
 │
+├── requirements.txt
+│
 └── README.md
-
-## Key Findings
-
-### Adult Program
-
-- Kansas WorkforceONE reported an ERQ2 employment rate of 87.0%, above the Kansas benchmark of 71.7%.
-- Heartland Works, Inc. reported an ERQ2 rate of 80.0%.
-- Workforce Partnership was close to the statewide ERQ2 benchmark at 71.8%.
-- Workforce Alliance of South Central Kansas and Southeast KANSASWORKS were below the statewide ERQ2 benchmark.
-- Median earnings varied across local boards, showing differences in post-program employment outcomes.
-
-### Dislocated Worker Program
-
-- Kansas WorkforceONE reported an ERQ2 rate of 96.0%, compared with the Kansas benchmark of 83.0%.
-- Workforce Alliance of South Central Kansas reported median earnings of approximately $15,758 in the second quarter after exit.
-- Workforce Partnership reported median earnings of approximately $14,888.
-- Some Southeast KANSASWORKS performance measures were unavailable because the source data contained invalid or suppressed numerator or denominator values.
-- Workforce Alliance had a valid credential attainment rate of 0% based on 0 credentials from a denominator of 5. This was retained as a true zero rather than treated as missing.
-
-### Youth Program
-
-- Kansas WorkforceONE reported an ERQ2 rate of 82.1%.
-- Southeast KANSASWORKS reported an ERQ2 rate of 79.7%.
-- Workforce Partnership reported an ERQ2 rate of 75.0%.
-- Youth median earnings were generally lower than Adult and Dislocated Worker median earnings, reflecting differences in participant populations and employment situations.
-- Southeast KANSASWORKS reported youth median earnings of approximately $6,585.
-
-## Business Interpretation
-
-The results show that local workforce boards can perform differently across employment, earnings, credential attainment, and skill-gain measures.
-
-For program managers, this type of analysis can support:
-
-- identification of outcomes that may require further review
-- comparison of local results with statewide benchmarks
-- monitoring of employment and earnings outcomes
-- identification of missing or suppressed performance data
-- preparation of management and program-performance reports
-- prioritization of additional investigation before program decisions are made
-
-Performance measures should not be interpreted independently of cohort size. Some local board and program combinations have relatively small denominators, which can make percentage-based measures more volatile.
-
-## Visual Results
-
-### Adult Program — ERQ2
-![Adult ERQ2](outputs/erq2_adult_comparison.png)
-
-### Dislocated Worker Program — ERQ2
-![Dislocated Worker ERQ2](outputs/erq2_dislocated_worker_comparison.png)
-
-### Youth Program — ERQ2
-![Youth ERQ2](outputs/erq2_youth_comparison.png)
-
-### Median Earnings — Adult Program
-![Adult Median Earnings](outputs/meq2_adult_comparison.png)
-
-### KPI Benchmark Summary — Adult Program
-![Adult KPI Status](outputs/kpi_status_adult.png)
 
