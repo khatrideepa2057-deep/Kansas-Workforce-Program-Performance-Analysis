@@ -158,3 +158,20 @@ For program managers, this type of analysis can support:
 
 Performance measures should not be interpreted independently of cohort size. Some local board and program combinations have relatively small denominators, which can make percentage-based measures more volatile.
 
+## Visual Results
+
+### Adult Program — ERQ2
+![Adult ERQ2](outputs/erq2_adult_comparison.png)
+
+### Dislocated Worker Program — ERQ2
+![Dislocated Worker ERQ2](outputs/erq2_dislocated_worker_comparison.png)
+
+### Youth Program — ERQ2
+![Youth ERQ2](outputs/erq2_youth_comparison.png)
+
+### Median Earnings — Adult Program
+![Adult Median Earnings](outputs/meq2_adult_comparison.png)
+
+### KPI Benchmark Summary — Adult Program
+![Adult KPI Status](outputs/kpi_status_adult.png)
+
